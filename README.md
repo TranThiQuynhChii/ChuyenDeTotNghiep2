@@ -46,5 +46,5 @@ Bước 5: lập trình giao diện Web (VSCode)
   + Thiết lập giao diện bố cục dạng các thẻ Tab: tab1, tab2, tab3 = st.tabs(Khách hàng VIP, Cảnh báo, Khuyến nghị).
   + Bên trong mỗi Tab, viết các câu lệnh truy vấn ngữ nghĩa bằng ngôn ngữ SPARQL để quét vào file OWL thành phẩm, lấy ra danh sách các thực thể đã được phân loại sẵn, chuyển đổi định dạng từ Graph sang Bảng phẳng (Pandas DataFrame) và hiển thị lên màn hình thông qua hàm st.dataframe().
 - Khởi chạy giao diện:
-  + Mở Terminal tại VSCode chạy câu lệnh theo tên đã đặt (ví dụ:streamlit run src/GDCDTN.py)
+  + Mở Terminal tại VSCode chạy câu lệnh theo tên đã đặt (ví dụ:streamlit run GDCDTN.py)
   + Hệ thống sẽ khởi tạo một local server và tự động mở ra trình duyệt Web.
