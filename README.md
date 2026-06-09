@@ -1,9 +1,10 @@
 # ChuyenDeTotNghiep2
 Hướng dẫn cài đặt và chạy chương trình
-#Giới thiệu  
-Xây dựng hệ thống kho dữ liệu & phân tích hiệu quả hoạt động kinh doanh dựa trên 
+1. Giới thiệu
+- Hệ thống hỗ trợ quyết định chủ động (Active DSS) dựa trên nền tảng Tri thức ngữ nghĩa Ontology. Hệ thống thực hiện chu trình khép kín: Đọc dữ liệu -> Ánh xạ cá thể vào mô hình OWL -> Thực thi hệ luật logic SWRL thông qua bộ lý giải Pellet -> Khai thác tri thức chủ động và hiển thị kết quả báo cáo trên giao diện Web Streamlit.
+- Đề tài: Xây dựng hệ thống kho dữ liệu & phân tích hiệu quả hoạt động kinh doanh dựa trên 
 
-#Cài đặt công cụ sử dụng & môi trường
+2.Cài đặt công cụ sử dụng & môi trường
 - Python
 - Pandas
 - Owlready2
@@ -14,9 +15,9 @@ Xây dựng hệ thống kho dữ liệu & phân tích hiệu quả hoạt độ
 - OWL
 - SWRL
 - SPARQL
-Mở Terminal thực hiện lệnh cài đặt thư viện cốt lõi: pip install pandas owlready2 rdflib streamlit openpyxl
+- Mở Terminal thực hiện lệnh cài đặt thư viện cốt lõi: pip install pandas owlready2 rdflib streamlit openpyxl
 
-  #Quy trình vận hành hệ thống
+3. Quy trình vận hành hệ thống
 Bước 1: Thiết kế cấu trúc nền tảng Ontology bằng Protégé
 - Khởi động phần mềm Protégé
 - Thực hiện thiết kế mô hihf tri thức lý thuyết 
